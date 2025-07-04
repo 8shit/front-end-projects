@@ -2,7 +2,7 @@ const GetWeather = document.getElementById("submit");
 async function fetchData() {
   try {
     const cityInput = document.getElementById("cityInput").value.toLowerCase();
-    const API = "735bc6581378cfede3371e36c4549260";
+    const API = "API_KEY";
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${API}`
     );
