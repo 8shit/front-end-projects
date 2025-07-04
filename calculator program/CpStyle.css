@@ -1,0 +1,82 @@
+body{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+
+
+}
+.displayBox{
+    border: solid black;
+    padding: 5px;
+    height: 70px;
+    max-width: 400px;
+}
+.calculatorContainer{
+    border: solid black;
+    max-width: 400px;
+
+
+}
+.buttonContainer{
+    display: flex;
+    border: solid black;
+    flex-wrap: wrap;
+    max-height: 450px;
+    max-width: 400px;
+    justify-content: center;
+    padding: 10px;
+
+}
+.functionButtonsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 400px;
+    margin: 10px;
+    max-width: 400px;
+
+}
+.numbersContainer{
+    display: grid;
+    grid-template-columns: auto auto auto   ;
+    gap: 3px;
+    max-height: 300px;
+    justify-content:flex-start;
+    margin: 10px;
+    max-width: 400px;
+}
+
+#zero{
+    grid-area: 4/1;
+}
+#one{
+    grid-area: 3/1;
+}
+#two{
+    grid-area: 3/2;
+}
+#three{
+    grid-area: 3/3;
+}
+#four{
+    grid-area: 2/1;
+}
+#five{
+    grid-area: 2/2;
+}
+#six{
+    grid-area: 2/3;
+}
+button{
+    border-radius: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    max-width: 600px;
+
+}
+
+button:hover{
+    opacity: 0.5;
+}
+

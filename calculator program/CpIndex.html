@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CpStyle.css">
+</head>
+<body>
+
+    <div class="calculatorContainer">
+        <div class="displayBox" id="display"></div>
+
+        <div class="buttonContainer">
+
+            <div class="functionButtonsContainer">
+            <button type="button" class="functonButtons" id="plus" onclick="plus('+')">+</button>
+            <button type="button" class="functonButtons" id="minus" onclick="minus('-')">-</button>
+            <button type="button" class="functonButtons" id="multiply" onclick="times('*')">*</button>
+            <button type="button" class="functonButtons" id="divide" onclick="divide('/')">/</button>
+            <button type="button" class="functonButtons" id="C" onclick="clearDisplay()">C</button>
+            </div>
+
+            <div class="numbersContainer">
+            <button type="button" class="numbers" id="zero" onclick=appendToDisplay(0)>0</button>
+            <button type="button" class="numbers" id="one" onclick=appendToDisplay(1)>1</button>
+            <button type="button" class="numbers" id="two" onclick=appendToDisplay(2)>2</button>
+            <button type="button" class="numbers" id="three" onclick=appendToDisplay(3)>3</button>
+            <button type="button" class="numbers" id="four" onclick=appendToDisplay(4)>4</button>
+            <button type="button" class="numbers" id="five" onclick=appendToDisplay(5)>5</button>
+            <button type="button" class="numbers" id="six" onclick=appendToDisplay(6)>6</button>
+            <button type="button" class="numbers" id="seven" onclick=appendToDisplay(7)>7</button>
+            <button type="button" class="numbers" id="eight" onclick=appendToDisplay(8)>8</button>
+            <button type="button" class="numbers" id="nine" onclick=appendToDisplay(9)>9</button>
+            <button type="button" class="numbers" id="equal" onclick=calculate()>=</button>
+            <button type="button" class="numbers" id="dot" onclick="appendToDisplay('.')">.</button>
+            </div>
+
+        </div>
+
+
+<script src="CpIndex.js"></script> 
+
+</body>
+</html>
