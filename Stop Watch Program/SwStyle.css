@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-size: 8vw;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.timeContainer{
+    border: solid black;
+    border-radius: 50px;
+    font-size: 15vw;
+    padding: 20px;
+    margin: auto;
+}
+button{
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid hsl(0, 0%, 100%);
+    color: white;
+}
+
+#start{
+    background-color: hsl(120, 100%, 50%);  
+}
+
+#stop{
+    background-color:hsl(0, 100%, 50%) ;
+}
+#reset{
+    background-color: hsl(204, 100%, 50%);
+}
+
+button:hover{
+    opacity: 0.3;
+}

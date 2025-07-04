@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(180, 4%, 95%);
+}  
+
+.flexbox{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: aqua;    
+
+}
+
+
+.weatherContainer{
+    display: flex;
+    border: solid rgb(254, 250, 250);
+    width: 25%;
+    visibility: visible;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: rgb(137, 150, 150);
+    border-radius: 10px;
+    border-width: 20px;
+}
+
+.weatherInfo{
+
+    opacity: 0.6;
+}

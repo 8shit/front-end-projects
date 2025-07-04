@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WEbsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <div>
+    <form>
+        <label for="tempInput" style="color: rgb(82, 191, 246); font-weight: bolder;"></label><br>
+        <input type="number" id="tempInput" style="text-align: center;" placeholder="enter temp" ><br>
+        <input type="radio" id="FTC" name="conversion" value="FTC">
+        <label for="FTC">Celsius -> Farenheight</label><br>
+        <input type="radio" id="CTF" name="conversion" value="CTF">
+        <label for="CTF">Farenheight -> Celsius</label><br>
+        <input type="submit" value="Convert" id="convert"></input>  
+        <button type="button" value="reset" onclick="reset()">Reset</button>  
+    </form>
+    </div>
+    
+    <h2 id="answer"></h2>
+
+
+    <script src="index.js"></script> 
+</body>
+</html>

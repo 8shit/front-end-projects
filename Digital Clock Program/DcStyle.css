@@ -1,0 +1,23 @@
+html{
+    background: url(mountain.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+div.clock{
+    font-family: monospace;
+    font-size: 10vw;
+    color: aliceblue;    
+    width: 100%;
+    text-align: center;
+    backdrop-filter:blur(10px);
+}
+
+.clockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
